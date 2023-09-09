@@ -1,0 +1,9 @@
+POST http://localhost:3333/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum servico",
+    "description": "Alguma descricao",
+    "price": 345,
+    "image": "https://br.images.search.yahoo.com/images/view;_ylt=AwrirdBWiPxkXbQpR9v16Qt.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzkyZjVkMzgxNzNmYmM4YzY1MjA3M2NjZTk0ZTljNzRmBGdwb3MDMTkEaXQDYmluZw--?back=https%3A%2F%2Fbr.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dimage%2Bluffy%26ei%3DUTF-8%26type%3DE210BR91199G0%26fr%3Dmcafee%26fr2%3Dp%253As%252Cv%253Ai%252Cm%253Asb-top%26tab%3Dorganic%26ri%3D19&w=2880&h=1800&imgurl=wallpapercave.com%2Fwp%2FoRU03Oc.jpg&rurl=https%3A%2F%2Fwallpapercave.com%2Fone-piece-luffy-wallpaper&size=486.4KB&p=image+luffy&oid=92f5d38173fbc8c652073cce94e9c74f&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&fr=mcafee&tt=One+Piece+Luffy+Wallpapers+-+Wallpaper+Cave&b=0&ni=90&no=19&ts=&tab=organic&sigr=H45_J_b1L3jC&sigb=0u7Q52v7w32l&sigi=nODf9KamEGfi&sigt=8wh3NbBveDgL&.crumb=AEdyLDYinun&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&type=E210BR91199G0"
+}

@@ -14,7 +14,7 @@ const serviceController = {
 
             const response = await ServiceModel.create(service)
 
-            response.json({response, msg: 'Servico criado com sucesso!'})
+            response.status(201).json({response, msg: 'Servico criado com sucesso!'})
         } catch (error) {
             console.log(error)
         }
