@@ -17,7 +17,7 @@ npm install express cors mongoose
 
 Back-end foi desenvolvido seguindo o padrão arquitetural MVC (Model-View-Controller), padrão de projeto amplamente utilizado para separar as responsabilidades das diferentes partes de um sistema, facilitando a manutenção, reutilização e testabilidade do código. isso tudo ja me conquista na questao de ser independente e amplo.
 
-<img src="" alt="">
+<img width="1326" alt="mvc-arquiteture" src="https://github.com/Guilhermefonseca2021/Node-System/assets/92196697/37be3e5f-b3c6-40fe-b978-2b373c2f3c5e">
 
 <h3> Estrutura de pastas: </h3>
 
@@ -38,8 +38,8 @@ Esses três componentes trabalham em conjunto para garantir uma separação clar
 
 non-blocking(usuario faz requisicao ele nao espera retornar respostas para atender o proximo usuario):
 
+<img width="1326" alt="multiple-request" src="https://github.com/Guilhermefonseca2021/Node-System/assets/92196697/42dd8d3a-96e1-492c-a8a6-93f84dd9a490">
 
-<img src="" alt="">
 
 criacao de modulos proprios para CRUD(criar back end HTTP, para CRUD.)
 
