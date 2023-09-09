@@ -1,8 +1,20 @@
-const { Person } = require('./person');
-// require('./src/path')
-// require('./src/fs')
-// const person = new Person('Felipe');
+const express = require("express");
+const cors = require("cors");
+const app = express();
 
-// console.log(person.sayMyName());
+app.use(cors());
+app.use(express.json());
 
-require('./src/http')
+// DATABASE connection
+const connection = require("./database/connect");
+
+connection();
+
+// Routes(para nao importas todas rotas passei para outro arquivo)
+const routes = require('./routes/router')
+
+app.use('/api', routes)
+
+app.listen(3333, () => {
+  console.log("Servidor Online!!");
+});
