@@ -21,6 +21,7 @@ Back-end foi desenvolvido seguindo o padrão arquitetural MVC (Model-View-Contro
 
 <h3> Estrutura de pastas: </h3>
 
+<<<<<<< HEAD
 - "models" contém os modelos de dados da aplicação, responsáveis por representar as entidades e regras de negócio.
 - "views" é responsável por apresentar os dados ao usuário, geralmente através de templates ou páginas HTML.
 - "controllers" partes responsáveis por receber as requisições do usuário, processá-las e interagir com os modelos e as views.
@@ -28,6 +29,12 @@ Back-end foi desenvolvido seguindo o padrão arquitetural MVC (Model-View-Contro
 - "middlewares" contém os middlewares, funções que podem ser executadas antes ou depois do processamento dos controladores, permitindo a implementação de lógicas adicionais.
 - "config" contém arquivos de configuração da aplicação, como conexões com bancos de dados ou configurações de autenticação.
 - "utils" contém utilitários ou funções auxiliares que podem ser usados em diferentes partes da aplicação
+=======
+- "models" contém os modelos de dados da aplicação, responsáveis por representar as entidades e regras de negócio.  conexões com bancos de dados ou configurações de autenticação.
+- "views" é responsável por apresentar os dados ao usuário, geralmente através de templates ou páginas HTML.
+- "controllers" partes responsáveis por receber as requisições do usuário, processá-las e interagir com os modelos e as views.
+- "routes" contém as definições das rotas da aplicação, que mapeiam as URLs para os controladores correspondentes. criando arquitetura mais limpa
+>>>>>>> d06a9da (back end UPDATED)
 
 
 <h3> Principais componentes: </h3>

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 const mongoose = require('mongoose')
 const { Schema } = mongoose
 
 // validacao de dados que criamos
 const {serviceSchema} = require('./Service')
+=======
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
+
+// validacao de dados que criamos
+const { serviceSchema } = require('./Service')
+>>>>>>> d06a9da (back end UPDATED)
 
 const partySchema = new Schema({
     title: {
@@ -30,7 +38,13 @@ const partySchema = new Schema({
         required: true,
     },
     // controla data de criacao e atualizacao
+<<<<<<< HEAD
 }, {timestamps: true})
+=======
+    }, 
+    {timestamps: true}
+)
+>>>>>>> d06a9da (back end UPDATED)
 
 // fazer ordenacao dos registros, nome do model e o que ordena
 const Party = mongoose.model('Party', partySchema)

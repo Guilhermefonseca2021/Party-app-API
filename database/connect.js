@@ -14,4 +14,8 @@ async function main() {
     }  
 }
 
+<<<<<<< HEAD
 module.exports = main
+=======
+module.exports = main;
+>>>>>>> d06a9da (back end UPDATED)
